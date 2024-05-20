@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+
+.navbar{
+	font-family:sans-serif;
+	/*background-color: 	#ffece5;*/
+}
+
+
+ .signin-form{
+	padding-left: 75%;
+	display: flex;
+	gap:0.5rem;
+} 
+.signin-form div a{
+	border-radius: 5px;
+	border : 1px solid white;
+	font-weight: 700;
+	font-size: 0.9rem;
+	  background-color: transparent !important;
+	color:white;
+	}
+	
+	.signin-form div a:hover{
+	background-color: white;
+	color:#000000;
+	border-radius: 5px;
+	border : 1px solid black;
+	font-weight: 700;
+	font-size: 0.9rem;
+	}
+
